@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #d0c0b9;
+    border: 0;
+    padding: 10px;
+    margin: 0; /* Remove margem padrão */
+    padding-left: 90px;
+}
+nav{
+    background-color: #f95507;
+    padding: 0;
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 25;
+    padding: 5px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.direito{
+    z-index: 1;
+}
+.loginregister ul{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0px 60px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.loginregister li{
+    display: inline;
+    margin-right: 20px;
+}
+.loginregister li a{
+    display: inline-block;
+    padding: 5px 25px; /* Ajuste o preenchimento conforme necessário */
+    text-decoration: none;
+    background-color: #fc5404; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 0; /* Espaçamento entre os botões */
+}
